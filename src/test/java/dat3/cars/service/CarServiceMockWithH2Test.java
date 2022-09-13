@@ -18,10 +18,10 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@DataJpaTest
+//@DataJpaTest
 class CarServiceMockWithH2Test {
 
-  public CarService carService;
+ /* public CarService carService;
   public static CarRepository carRepository;
 
   static int car1Id,car2Id;  //Store ID's for subsequent tests
@@ -101,5 +101,5 @@ class CarServiceMockWithH2Test {
     //Load the car and verify change
     CarResponse response = carService.findCarById(car1Id,false);
     assertEquals(111,response.getPricePrDay());
-  }
+  }*/
  }

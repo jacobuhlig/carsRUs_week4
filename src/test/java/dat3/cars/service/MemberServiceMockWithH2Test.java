@@ -21,10 +21,10 @@ import static org.hamcrest.Matchers.is;
 import static org.hamcrest.collection.IsIterableContainingInAnyOrder.containsInAnyOrder;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@DataJpaTest
+//@DataJpaTest
 class MemberServiceMockWithH2Test {
 
-  public  MemberService memberService;
+  /*public  MemberService memberService;
 
   public  static MemberRepository memberRepository;
 
@@ -91,5 +91,5 @@ class MemberServiceMockWithH2Test {
 
   @Test
   void setRankingForUser() {
-  }
+  }*/
 }
