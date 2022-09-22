@@ -5,7 +5,7 @@ name: Build and deploy JAR app to Azure Web App - cars-r-us-jacobuhlig
 
 on:
   push:
-    branches:
+    branches-ignore:
       - main
   workflow_dispatch:
 
